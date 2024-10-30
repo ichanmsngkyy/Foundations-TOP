@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+.title {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.body{
+    text-align: center;
+    padding: 10px;
+}
+
+li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+
+}
+
+nav {
+    display: flex;
+    border-style: solid;
+    border-radius: 10px;
+    flex-grow:1
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex: 1;
+    flex-flow: row wrap;
+}
+
+.push-right{
+    margin-right: auto;
+}
